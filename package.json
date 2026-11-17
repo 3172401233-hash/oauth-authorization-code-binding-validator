@@ -1,0 +1,17 @@
+{
+  "name": "oauth-authorization-code-binding-validator",
+  "version": "1.0.0",
+  "description": "OAuth 2.0 授权码绑定校验库：PKCE S256、redirect URI 精确匹配、客户端/用户绑定、过期与一次性原子兑换",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
